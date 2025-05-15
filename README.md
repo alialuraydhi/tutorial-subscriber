@@ -19,3 +19,7 @@ Host: localhost (mengacu pada komputer lokal)
 
 Port: 5672 (port standar/default untuk komunikasi AMQP)
 ```
+
+![image](https://github.com/user-attachments/assets/0a9eef88-b869-459f-9746-72e97cca0bf2)
+
+Simulasi slow subscriber, dengan menambahkan `thread::sleep` yang berakibat bertambahnya queue sampai 100
